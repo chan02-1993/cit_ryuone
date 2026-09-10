@@ -13,3 +13,11 @@ for x in range(len(lst)):
         for z in range(len(lst)):
             if x!= y and x!=z and y!=z and x<y<z:
                 print(x,y,z)
+
+lst = [0,1,2,3,4]
+
+for x in range (len(lst)):
+    for y in range (len(lst)):
+        for z in range (len(lst)):
+            if x!=y and y!=z and x!=z:
+                print(x,y,z)
